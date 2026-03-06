@@ -1,0 +1,13 @@
+wilko_power/
+├── manage.py
+├── wilko/
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── products/
+├── orders/
+├── payments/
+├── ai/
+├── analytics/
+├── static/
+└── templates/
