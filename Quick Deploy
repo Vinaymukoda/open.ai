@@ -1,0 +1,13 @@
+# Local
+pip install -r requirements.txt
+python manage.py migrate
+python manage.py collectstatic
+python manage.py runserver
+
+# Production
+eb init -p python-3.9 wilko-power --region ap-south-1
+eb create wilko-prod
+eb deploy
+
+# Scale (your pattern)
+gunicorn --workers 4 --threads 2 --worker-class gthread wilko.wsgi
