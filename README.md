@@ -263,4 +263,4 @@ LLM-powered business intelligence
 
 ***
 
-**💡 Pro Tip**: Start with `products` + `ai` services, deploy to Beanstalk, then add `analytics` as traffic grows. Perfect for your microservices + AWS interview portfolio! [perplexity](https://www.perplexity.ai/search/e4fb8a51-53f7-4599-8294-4f01a13a7383)
+
